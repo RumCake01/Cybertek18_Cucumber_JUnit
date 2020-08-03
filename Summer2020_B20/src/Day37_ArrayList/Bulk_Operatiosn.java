@@ -35,6 +35,9 @@ public class Bulk_Operatiosn {
         list2.add(3);
         list2.add(4);
 
+    // contains methods - to check if elements are present in the list
+        // asList - coverts arrays of values to Arraylist, helps all the arrays to collection type
+        // will be able to pass non-primitive array to the collections
 
        boolean r3 =  list2.containsAll(Arrays.asList(1, 3, 4) );
 
@@ -46,21 +49,17 @@ public class Bulk_Operatiosn {
         System.out.println("====================================");
 
 
+// .addAll method - adds elements at the same time, Accepts collection type only.
+        //
 
         ArrayList<Integer> numbers = new ArrayList<>();
 
         numbers.addAll(Arrays.asList(30, 50, 76, 100));
         System.out.println(numbers);
-
-
         System.out.println("====================================");
 
-
-
         ArrayList<String> group29 = new ArrayList<>();
-
         group29.addAll(Arrays.asList("James", "Mike", "Loretta", "RumCake", "Stani", "Cristina","Alla") );
-
         group29.containsAll(Arrays.asList("Kuzzat", "Mirodel" ) );
         System.out.println(group29);
 
@@ -70,10 +69,11 @@ public class Bulk_Operatiosn {
 
         nums.addAll( Arrays.asList(1, 1, 2, 2, 3, 4, 5, 5, 6, 7, 7, 7));
         System.out.println(nums);
+
+
+        // remove all methods - removes everything specified in ( )
         nums.removeAll(Arrays.asList(1, 7, 5)); // removes these matching elements from the Arrays list
         System.out.println(nums);
-
-
         System.out.println("====================================");
 
 
@@ -84,6 +84,9 @@ public class Bulk_Operatiosn {
         nums1.addAll( Arrays.asList(1, 1, 2, 2, 3, 4, 5, 5, 6, 7, 7, 7));
         nums1.retainAll(Arrays.asList(1, 2, 3, 9)); // value of elements that we WANT to keep
         System.out.println(nums1);
+
+
+        // remove
 
 
     }
