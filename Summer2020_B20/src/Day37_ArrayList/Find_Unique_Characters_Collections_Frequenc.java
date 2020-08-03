@@ -26,18 +26,21 @@ public class Find_Unique_Characters_Collections_Frequenc {
 
        /*for(char each :str.toCharArray() ){// on the right is out data structure
             list.add(each); */
-            // we could also use string here and split method to get each char from array list
-        for(String each :str.split( "" ) ){
-             list.add(each);
-            }
+        // we could also use string here and split method to get each char from array list
+        for (String each : str.split("")) {
+            list.add(each);
+        }
         System.out.println(list);
         for (String each : list) {
             int count = Collections.frequency(list, each); // find frequency of A
             if (count == 1) { // is equal then it is Unique and it should print out the letter A
-                uniques +=(each);
+                uniques += (each);
+                System.out.println(uniques);
             }
         }
-        System.out.println(uniques + " ");
+
+            System.out.println(uniques + " " );
+
 
     }
 }
