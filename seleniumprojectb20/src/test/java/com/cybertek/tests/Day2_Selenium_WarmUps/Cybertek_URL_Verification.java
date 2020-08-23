@@ -17,10 +17,11 @@ public class Cybertek_URL_Verification {
     // Cybertek Verifications
 
     public static void main(String[] args) {
-        WebDriverManager.chromedriver();
+        WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();
 
+        // this line will maximize the newly opened browser page
         driver.manage().window().maximize();
         driver.get("https://practice.cybertekschool.com");
         System.out.println("Current Url: " +driver.getCurrentUrl());
