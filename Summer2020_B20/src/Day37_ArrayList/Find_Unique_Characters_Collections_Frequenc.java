@@ -38,9 +38,6 @@ public class Find_Unique_Characters_Collections_Frequenc {
                 System.out.println(uniques);
             }
         }
-
             System.out.println(uniques + " " );
-
-
     }
 }

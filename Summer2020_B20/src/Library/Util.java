@@ -539,4 +539,17 @@ public class Util {
         }
         return result;
     }
+
+
+    // cause the current execution thread to sleep for given seconds
+
+    public static void sleep( int seconds){ // this is our custom method
+        // this above is my custom method, the benefit of having it is that our codes become much more
+        // reusable and becomes much more shorter
+        try {
+            Thread.sleep(seconds * 1000);
+        }catch(InterruptedException e){
+
+        }
+    }
 }

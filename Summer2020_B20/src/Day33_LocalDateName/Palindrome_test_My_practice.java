@@ -3,6 +3,8 @@ package Day33_LocalDateName;
 public class Palindrome_test_My_practice {
 
     public static void main(String[] args) {
+
+
         palindrome("kayak");
     }
 

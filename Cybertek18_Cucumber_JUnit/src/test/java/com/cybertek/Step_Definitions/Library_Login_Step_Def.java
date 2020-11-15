@@ -6,9 +6,8 @@ import io.cucumber.java.en.When;
 
 public class Library_Login_Step_Def {
 
-
     @Given("use is on the login page")
-    public void use_is_on_the_login_page() {
+    public void user_is_on_the_login_page() {
         System.out.println("--> User is on the login page");
     }
 
@@ -21,9 +20,6 @@ public class Library_Login_Step_Def {
     public void user_should_see_dashboard() {
         System.out.println("--> User should see dashboard");
     }
-
-
-
 
 
 }

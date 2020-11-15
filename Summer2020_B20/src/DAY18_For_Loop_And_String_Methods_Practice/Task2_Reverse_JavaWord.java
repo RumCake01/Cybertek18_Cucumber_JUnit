@@ -15,11 +15,8 @@ public class Task2_Reverse_JavaWord {
         System.out.println(result1);
         System.out.println("=====================================");
 
-        // create the same thing with CharAt method
 
-        char ch1 = str.charAt(0);
-        String result2 = s1+s2;
-        System.out.println(result2);
+
 
 
 
