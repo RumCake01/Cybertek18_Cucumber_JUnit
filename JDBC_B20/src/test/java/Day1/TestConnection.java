@@ -14,6 +14,8 @@ public class TestConnection {
             ResultSet rs = stmnt.executeQuery("SELECT * FROM REGIONS");
             rs.next(); // currently we are at the very first row
             System.out.println("first column value using index: --> " + rs.getString(1));
+
+
         }
     }
 
